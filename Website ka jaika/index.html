@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Portfolio</div>
+
+    <div class="menu-btn" onclick="openNav()">☰</div>
+
+    <nav class="navbar" id="navbar">
+        <span class="close-btn" onclick="closeNav()">×</span>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <img src="images\2.png" alt="Profile Image">
+    <h1>Anshul Chandra</h1>
+    <p>Graphic Designer and Web Developerr</p>
+</section>
+
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="title">Services & Pricing</h2>
+
+        <div class="services-grid">
+
+            <!-- Graphic Design -->
+            <div class="service-card">
+                <h3>Graphic Design</h3>
+
+                <div class="plans">
+
+                    <div class="plan">
+                        <h4>Basic</h4>
+                        <p class="price">₹999</p>
+                        <ul>
+                            <li>1 Design</li>
+                            <li>2 Revisions</li>
+                            <li>2 Day Delivery</li>
+                        </ul>
+                        <button>Get Started</button>
+                    </div>
+
+                    <div class="plan featured">
+                        <span class="badge">Most Popular</span>
+                        <h4>Standard</h4>
+                        <p class="price">₹2499</p>
+                        <ul>
+                            <li>5 Designs</li>
+                            <li>5 Revisions</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <button>Get Started</button>
+                    </div>
+
+                    <div class="plan">
+                        <h4>Premium</h4>
+                        <p class="price">₹4999</p>
+                        <ul>
+                            <li>10 Designs</li>
+                            <li>Unlimited Revisions</li>
+                            <li>Fast Delivery</li>
+                        </ul>
+                        <button>Get Started</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="service-card">
+                <h3>Web Development</h3>
+
+                <div class="plans">
+
+                    <div class="plan">
+                        <h4>Basic</h4>
+                        <p class="price">₹2999</p>
+                        <ul>
+                            <li>1 Page Website</li>
+                            <li>Responsive Design</li>
+                            <li>Basic SEO</li>
+                        </ul>
+                        <button>Get Started</button>
+                    </div>
+
+                    <div class="plan featured">
+                        <span class="badge">Most Popular</span>
+                        <h4>Standard</h4>
+                        <p class="price">₹7999</p>
+                        <ul>
+                            <li>5 Pages Website</li>
+                            <li>Contact Form</li>
+                            <li>Speed Optimized</li>
+                        </ul>
+                        <button>Get Started</button>
+                    </div>
+
+                    <div class="plan">
+                        <h4>Premium</h4>
+                        <p class="price">₹14999</p>
+                        <ul>
+                            <li>10+ Pages</li>
+                            <li>Custom UI/UX</li>
+                            <li>Full Support</li>
+                        </ul>
+                        <button>Get Started</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="projects" id="projects">
+    <div class="container">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <!-- Graphic Design Projects -->
+        <div class="project-category">
+            <h3>Graphic Design Projects</h3>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="images\kya.jpg" alt="">
+                    <div class="overlay">
+                        <h4>Brand Identity Design</h4>
+                        <p>Logo & Social Media Kit</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images\9876be5da123a120b9443854512fcefa.jpg" alt="">
+                    <div class="overlay">
+                        <h4>Poster Design</h4>
+                        <p>Event Marketing Campaign</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images\malik.jpg" alt="">
+                    <div class="overlay">
+                        <h4>Thumbnail Design</h4>
+                        <p>YouTube Branding</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Web Development Projects -->
+        <div class="project-category">
+            <h3>Web Development Projects</h3>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="images\portma.jpg" alt="">
+                    <div class="overlay">
+                        <h4>Portfolio Website</h4>
+                        <p>Personal Brand Website</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images\e-commerce.jpg" alt="">
+                    <div class="overlay">
+                        <h4>E-commerce Website</h4>
+                        <p>Online Store</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images\pitza.jpg" alt="">
+                    <div class="overlay">
+                        <h4>Business Landing Page</h4>
+                        <p>Lead Generation</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="education" id=" education">
+    <div class="container">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-year">2023 - Present</div>
+                <div class="timeline-content">
+                    <h3>Bachelor's Degree</h3>
+                    <p>Computer Science</p>
+                    <span>IIT Rudki</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2021 - 2023</div>
+                <div class="timeline-content">
+                    <h3>Higher Secondary</h3>
+                    <p>Science Stream</p>
+                    <span>Lions Senior Secondary School</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2019 - 2021</div>
+                <div class="timeline-content">
+                    <h3>Secondary Education</h3>
+                    <p>General Studies</p>
+                    <span>Deffodils Public School</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-------- Contact Section with Service Switcher and forms ----->
+<section class="contact" id="contact">
+    <div class="contact-container">
+
+        <h2>Start Your Project</h2>
+
+        <!-- Service Switch Buttons -->
+        <div class="service-toggle">
+            <button id="designBtn" onclick="showForm('design')">Graphic Designer</button>
+            <button id="webBtn" onclick="showForm('web')">Web Developer</button>
+        </div>
+
+        <!------- Web Developer Form ------>
+       <form id="webForm" class="project-form">
+
+  <!-- Hidden Service Type -->
+  <input type="hidden" name="service_type" value="Web Development">
+
+  <div class="grid-2">
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
+  </div>
+
+  <input type="email" name="email" placeholder="Email Address" required>
+
+  <!-- Phone Number -->
+  <input type="tel" name="phone" placeholder="Mobile Number" required>
+
+  <!-- Website Type -->
+  <select name="website_type" required>
+    <option value="">Select Website Type</option>
+    <option value="Business Website">Business Website</option>
+    <option value="E-commerce Website">E-commerce Website</option>
+    <option value="Portfolio Website">Portfolio Website</option>
+    <option value="Landing Page">Landing Page</option>
+  </select>
+
+  <!-- Plan Selection -->
+  <div class="plan-options">
+    <label>
+      <input type="radio" name="plan" value="Basic" required>
+      Basic
+    </label>
+
+    <label>
+      <input type="radio" name="plan" value="Standard">
+      Standard
+    </label>
+
+    <label>
+      <input type="radio" name="plan" value="Premium">
+      Premium
+    </label>
+  </div>
+
+  <button type="submit">Submit Project</button>
+
+</form>
+
+
+
+        <!-- Graphic Designer Form -->
+       <form id="designForm" class="project-form">
+
+  <div class="grid-2">
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
+  </div>
+
+  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="tel" name="phone" placeholder="Mobile Number" required>
+
+  <select name="design_type" required>
+    <option value="">Select Design Type</option>
+    <option value="Logo Design">Logo Design</option>
+    <option value="Poster Design">Poster Design</option>
+    <option value="Thumbnail Design">Thumbnail Design</option>
+    <option value="Social Media Design">Social Media Design</option>
+  </select>
+
+  <div class="plan-options">
+    <label><input type="radio" name="plan" value="Basic" required> Basic</label>
+    <label><input type="radio" name="plan" value="Standard"> Standard</label>
+    <label><input type="radio" name="plan" value="Premium"> Premium</label>
+  </div>
+
+  <button type="submit">Submit Project</button>
+</form> 
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
